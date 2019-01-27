@@ -4,11 +4,15 @@
   "description": "Catan practice for github portfolio",
   "scripts": {
     "test": "./npm_exec nodemon server.js",
+    "start": "nodemon backend/index.js",
     "build": "npm install"
   },
-  "author": "Andreas Brandt",
+  "nodemonConfig": {},
+  "author": "Andreas Brandt's Huge Penis",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "=1.18.9"
+    "express": "=4.16.4",
+    "nodemon": "=1.18.9",
+    "socket.io": "=2.2.0"
   }
 }
