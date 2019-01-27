@@ -1,10 +1,10 @@
 {
   "name": "catan",
   "version": "0.0.1",
-  "description": "Catan practice for the CV",
+  "description": "Catan practice for github portfolio",
   "scripts": {
     "test": "./npm_exec nodemo server.js",
-    "build": "npm install && ./npm_exec bower install"
+    "build": "npm install"
   },
   "author": "Andreas Brandt",
   "license": "ISC"
