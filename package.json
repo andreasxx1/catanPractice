@@ -9,6 +9,6 @@
   "author": "Andreas Brandt",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "=1.18.9"
   }
 }

@@ -46,7 +46,7 @@
 			const level = document.createElement('div');
 			//
 			level.style.marginTop = -hexOpt.width/15 + 'px';
-			level.style.marginLeft = hexOpt.width/1.6 * totalNumberOfLevels/numberOfTiles + 'px';
+			level.style.marginLeft = hexOpt.width/1.635 * totalNumberOfLevels/numberOfTiles + 'px';
 			// Margin correction for the middle level
 			if (numberOfTiles === totalNumberOfLevels) {
 				level.style.marginLeft = parseInt(level.style.marginLeft) - hexOpt.width/10 + 'px';
