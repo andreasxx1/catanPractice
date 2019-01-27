@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "description": "Catan practice for github portfolio",
   "scripts": {
-    "test": "./npm_exec nodemo server.js",
+    "test": "./npm_exec nodemon server.js",
     "build": "npm install"
   },
   "author": "Andreas Brandt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
